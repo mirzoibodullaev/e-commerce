@@ -1,0 +1,24 @@
+.sidebar {
+    padding: 40px 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+    &-item {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        gap: 51px;
+
+        &__link {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+    }
+    &-item:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}

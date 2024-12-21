@@ -1,0 +1,46 @@
+.sales {
+    margin-bottom: 80px;
+    &-view__button {
+        padding: 16px 48px;
+        background-color: #db4444;
+        color: #fafafa;
+        border: none;
+        border-radius: 4px;
+        margin: 0 auto;
+        display: block;
+        cursor: pointer;
+        margin-bottom: 60px;
+    }
+    &-rectangle {
+        width: 20px;
+        height: 40px;
+        background-color: #db4444;
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+    &-title {
+        font-weight: 600;
+        align-items: center;
+        display: flex;
+        color: #db4444;
+        line-height: 20px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    &-heading {
+        margin-right: 87px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
+        font-family: "Inter", serif;
+    }
+    &-time {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}
+.card-items {
+    display: flex;
+    gap: 30px;
+}

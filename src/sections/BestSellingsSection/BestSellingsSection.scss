@@ -1,0 +1,42 @@
+.best-sellings {
+    margin-bottom: 140px;
+    &__title {
+        align-items: center;
+        display: flex;
+        color: #db4444;
+        line-height: 20px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    &__item {
+        width: 20px;
+        height: 40px;
+        background-color: #db4444;
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+    &__heading {
+        font-weight: 600;
+        font-size: 36px;
+        font-family: "Inter", serif;
+        color: #000;
+    }
+    &__top-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    &__btn {
+        padding: 16px 48px;
+        color: #fafafa;
+        background-color: #db4444;
+        border: none;
+        border-radius: 4px;
+    }
+    &__products {
+        display: flex;
+        gap: 30px;
+    }
+}

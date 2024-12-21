@@ -1,0 +1,23 @@
+.header {
+    padding: 40px 0px 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo {
+        font-weight: 700;
+        font-family: "Inter", serif;
+        font-size: 24px;
+        line-height: 24px;
+        color: #000;
+    }
+    &-content {
+        display: flex;
+        align-items: center;
+    }
+    &-icons {
+        margin-left: 24px;
+    }
+    .wishlist {
+        margin-right: 16px;
+    }
+}

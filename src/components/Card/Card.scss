@@ -1,0 +1,65 @@
+.card {
+    margin-bottom: 60px;
+    &-img {
+        margin: 61px;
+    }
+    &-content {
+        margin-bottom: 16px;
+        position: relative;
+        max-width: 278px;
+        height: 250px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+    }
+    &-icons {
+        top: 12px;
+        right: 12px;
+        position: absolute;
+    }
+    &-icon {
+        padding: 5px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        width: 34px;
+        height: 34px;
+    }
+    &-icon:not(:last-child) {
+        margin-bottom: 8px;
+    }
+    &-sale {
+        top: 12px;
+        left: 12px;
+        position: absolute;
+        display: block;
+        margin-bottom: 11px;
+        position: absolute;
+        background-color: #db4444;
+        padding: 4px 12px;
+        color: #fafafa;
+        border-radius: 4px;
+    }
+    &-new {
+        top: 12px;
+        left: 12px;
+        position: absolute;
+        display: block;
+        margin-bottom: 11px;
+        position: absolute;
+        background-color: #00ff66;
+        padding: 4px 12px;
+        color: #fafafa;
+        border-radius: 4px;
+    }
+    &-name {
+        font-weight: 500;
+        font-size: 16px;
+        color: #000000;
+    }
+    &-price {
+        font-weight: 500;
+        font-size: 16px;
+        color: #db4444;
+    }
+}

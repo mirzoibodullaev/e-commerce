@@ -1,0 +1,82 @@
+.limited-offer-section {
+    margin-bottom: 71px;
+    padding: 69px 60px;
+    display: flex;
+    background-color: #000;
+
+    &__content {
+        margin-right: 43px;
+    }
+
+    &__title {
+        color: #00ff66;
+        font: 600px;
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    &__paragraph {
+        color: #fafafa;
+        font-family: "Inter", serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 32px;
+    }
+    &__time {
+        margin-bottom: 40px;
+        display: flex;
+    }
+    &__date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 10px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 62px;
+        height: 62px;
+    }
+    &__text {
+        font-size: 11px;
+        font-weight: 400;
+    }
+    &__num {
+        color: #000;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    &__date:not(:last-child) {
+        margin-right: 24px;
+    }
+    &__btn {
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        padding: 16px 48px;
+        background-color: #00ff66;
+        color: #fafafa;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &__img {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 40px;
+            left: 110px;
+            width: 300px;
+            height: 300px;
+            background: #d9d9d9;
+            filter: blur(200px);
+            z-index: 0;
+        }
+
+        img {
+            position: relative;
+            z-index: 1;
+        }
+    }
+}

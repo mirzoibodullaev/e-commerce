@@ -1,0 +1,125 @@
+.footer {
+    background-color: #000;
+    &-wrapper {
+        gap: 87px;
+        display: flex;
+        padding: 80px 135px 124px 135px;
+    }
+    &-logo {
+        font-weight: 700;
+        font-size: 24px;
+        color: #fafafa;
+        margin-bottom: 24px;
+    }
+    &-subscribe {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fafafa;
+        margin-bottom: 24px;
+    }
+    &-paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        color: #fafafa;
+        margin-bottom: 16px;
+    }
+
+    &-email__input {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: transparent;
+        width: 235px;
+        &-field {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: #ffffff;
+            outline: none;
+            font-size: 16px;
+            font-weight: 400;
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+        &-button {
+            background: transparent;
+            border: none;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            &:hover {
+                color: #a0bce0;
+            }
+        }
+    }
+    &-support {
+        &__title,
+        &__address,
+        &__email,
+        &__phone {
+            margin-bottom: 16px;
+            color: #fafafa;
+            font-weight: 400;
+            font-size: 16px;
+            display: block;
+            text-decoration: none;
+        }
+    }
+
+    &-account {
+        &__link {
+            display: block;
+            margin-bottom: 16px;
+            color: #fafafa;
+            font-weight: 400;
+            font-size: 16px;
+            display: block;
+            text-decoration: none;
+        }
+    }
+    &-quicklink {
+        &__link {
+            display: block;
+            margin-bottom: 16px;
+            color: #fafafa;
+            font-weight: 400;
+            font-size: 16px;
+            display: block;
+            text-decoration: none;
+        }
+    }
+    &-app {
+        &__link {
+            display: block;
+            margin-bottom: 24px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #fafafa;
+            text-decoration: none;
+        }
+        &__offer {
+            color: #fafafa;
+            opacity: 0.7;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        &__download {
+            display: flex;
+            margin-bottom: 24px;
+        }
+        &__qrcode {
+            margin-right: 10px;
+        }
+        &__gplay {
+            margin-bottom: 9px;
+        }
+    }
+    &-icons img:not(:last-child) {
+        margin-right: 24px;
+    }
+   
+}

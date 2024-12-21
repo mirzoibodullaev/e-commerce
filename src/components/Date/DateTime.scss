@@ -1,0 +1,27 @@
+.countdown-timer {
+    display: flex;
+    gap: 17px;
+
+    &__label {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 4px;
+    }
+
+    &__value {
+        line-height: 30px;
+        font-size: 32px;
+        font-weight: 700;
+        color: #000;
+    }
+    &__colon {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        font-weight: bold;
+        color: #e07575;
+        margin-left: 17px;
+    }
+}
